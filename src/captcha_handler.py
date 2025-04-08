@@ -3,7 +3,6 @@ import aiohttp
 import discord
 from aiohttp import BasicAuth
 import asyncio
-
 from data.config import captcha_api_key
 
 class CaptchaHandler(discord.CaptchaHandler):
